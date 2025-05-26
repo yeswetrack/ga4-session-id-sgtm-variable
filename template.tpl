@@ -14,6 +14,7 @@ ___INFO___
   "version": 1,
   "securityGroups": [],
   "displayName": "GA4 Session ID Extractor from Cookie",
+  "categories": ["ANALYTICS", "ATTRIBUTION"],
   "description": "Extracts the GA4 session ID from the _ga_MEASUREMENTID cookie (e.g. _ga_G-XXXXXXXX). Supports GA4 Measurement ID or custom cookie value. Returns the session ID portion for use in server-side tagging.",
   "containerContexts": [
     "SERVER"
